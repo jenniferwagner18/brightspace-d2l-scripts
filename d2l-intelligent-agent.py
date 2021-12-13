@@ -17,4 +17,4 @@ df['InAgentReport'].fillna('False', inplace=True)
 df['Email'].replace(r'_at_', '@', regex=True, inplace=True)
 df['Email'] = df['Email'].where(df['Email'].str.contains('@'), df['Email'].astype(str) + '@yourschool.edu')
 
-df.to_csv('awards-earned.csv', columns=['LastName', 'FirstName', 'Email', 'InAgentReport'], index=False)
+df.to_csv('agent-final.csv', columns=['LastName', 'FirstName', 'Email', 'InAgentReport'], index=False)
