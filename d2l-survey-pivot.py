@@ -1,4 +1,5 @@
-# Pivots individual attempts survey report from D2L so that Likert questions are in columns instead of rows
+# Pivots individual attempts survey report from D2L so that Likert questions 
+# (using a scale of 1 to 5) are in columns instead of rows
 
 import pandas as pd
 import numpy as np
