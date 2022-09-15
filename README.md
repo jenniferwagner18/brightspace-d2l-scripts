@@ -10,7 +10,9 @@ An [Excel spreadsheet](https://github.com/jenniferwagner18/brightspace-d2l-scrip
 ## Outcomes Pivot
 Pivots the data in a learning outcomes data set generated in Insights Report Builder so that it matches the Mastery View table in D2L. Students are in rows, outcomes are in columns, and the mastery levels are the values. The [data flow](https://github.com/jenniferwagner18/brightspace-etl-dataflows/blob/main/mastery-view.md) for generating the outcomes CSV file is available from the brightspace-etl-dataflows repository.
 
+The manual way of creating the text-only pivot table in Excel is show in [this Outcomes data video](https://mediaspace.msu.edu/media/D2L+Outcomes+Data+PivotTable+to+re-create+Mastery+View/1_2f4z3wn3).
+
 ## Survey Pivot
 Pivots the data in a Survey report (individual attempts) of Likert questions downloaded from D2L so that the questions are in columns instead of in rows. If there are multiple attempts on the survey, the responses are averaged.
 
-The manual way of cleaning the data and creating the pivot table in Excel is shown in [this video](https://mediaspace.msu.edu/media/D2L+Survey+Report+PivotTable/1_jyh0yyk8).
+The manual way of cleaning the data and creating the pivot table in Excel is shown in [this Survey Report video](https://mediaspace.msu.edu/media/D2L+Survey+Report+PivotTable/1_jyh0yyk8).
