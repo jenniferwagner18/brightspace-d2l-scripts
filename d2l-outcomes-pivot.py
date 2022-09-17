@@ -5,8 +5,12 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('outcomes.csv')
-df = df.iloc[:, [1,2,3,4]] # columns to pivot (2nd column is first name, 3rd is last name, etc. in my 
+filename = input('Enter the filename: ')
+df = pd.read_csv(filename)
+df = df.iloc[:, [1,2,3,4]] # columns to pivot 
 df.columns = ['FirstName', 'LastName', 'Outcomes', 'Levels']
-table = pd.pivot_table(df, values='Levels', index=['FirstName', 'LastName'], columns='Outcomes', aggfunc=lambda x: ' '.join(x))
-table.to_csv('mastery-view.csv')
+table = pd.pivot_table(df, values='Levels', 
+                       index=['FirstName', 'LastName'], 
+                       columns='Outcomes', 
+                       aggfunc=lambda x: ' '.join(x))
+table.to_csv(filename[:-4] + '-mastery-view.csv')
