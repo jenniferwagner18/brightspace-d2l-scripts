@@ -5,7 +5,7 @@ These Python scripts clean and format data in reports downloaded from Brightspac
 ## Intelligent Agent
 Merges the exported classlist CSV and the export history CSV of an intelligent agent from D2L. The export history does not include usernames or email addresses, while the classlist export only can include usernames and/or email addresses (if enabled by admins). If only usernames are included, this script formats the email addresses properly, including if guest accounts with various domains are used. Output columns are Last name, First name, Email address, and if the user was identified in the intelligent agent (True or False).
 
-Excel workbooks for adding usernames/email addresses to an intelligent agent export history is also available using [formulas](https://github.com/jenniferwagner18/brightspace-d2l-scripts/blob/main/d2l-intelligent-agent.xlsx) or [Power Query](https://github.com/jenniferwagner18/brightspace-d2l-scripts/blob/main/d2l-intelligent-agents-power-query.xlsx).
+Excel workbooks for adding usernames/email addresses to an intelligent agent export history are also available using [formulas](https://github.com/jenniferwagner18/brightspace-d2l-scripts/blob/main/d2l-intelligent-agent.xlsx) or [Power Query](https://github.com/jenniferwagner18/brightspace-d2l-scripts/blob/main/d2l-intelligent-agents-power-query.xlsx).
 
 The manual way of joining intelligent agents and the class roster using Power Query in Excel is shown in [this Intelligent Agents video](https://mediaspace.msu.edu/media/1_cdn8k42f).
 
